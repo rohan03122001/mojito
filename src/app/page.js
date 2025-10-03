@@ -1,4 +1,5 @@
 
+import Cocktails from "@/components/Cocktails";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import gsap from "gsap";
@@ -11,7 +12,7 @@ export default function Home() {
     <main>
       <Navbar />
       <Hero />
-      <div className="h-dvh bg-black" />
+      <Cocktails/>
     </main>
   );
 }
